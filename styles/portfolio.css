@@ -12,11 +12,7 @@ nav{
     justify-content: space-between;
     margin: 0 200px;
 }
-.nav-title{
-    /* color: #181818;
-    font-size: 60px;
-    font-weight: 800; */
-}
+
 .text-primary{
     color: #FD6E0A;
 }
@@ -31,7 +27,6 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
-    /* align-items: center; */
 }
 .primary-btn{
     background-color: #FD6E0A;
@@ -41,43 +36,34 @@ nav a{
     border: 0;
     font-weight: 700;
     padding: 15px 35px;
-
 }
-/* header body style */
 header{
     background-color: #FFF8F3;
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-    
 }
 .banner{
     display: flex;
     padding-left: 150px;
     align-items: center;
     justify-content: space-between;
-    
-    
 }
 .banner-greeting{
     color: #474747;
     font-size: 45px;
     font-weight: 680;
     margin-bottom: 0px;
-    
 }
 .banner-title{
     font-size: 85px;
     margin-top: 0px;
     margin-bottom: 8px;
-    
 }
 .banner .profile-pic{
     width: 584px;
     height: 674;
     margin-bottom: -5px;
-   
-    
 }
 .banner-description{
     margin-top: 5px;
@@ -88,3 +74,108 @@ header{
 .btn{
     margin-right: 15px;
 }
+.aboutMe{
+    background-color: #FFF8F3;
+    height: 500px;
+    margin: 100px 0px;
+    padding: 0px 50px;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.info-title{
+    color: #757575;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: -40px;
+}
+.about-des{
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 100px;
+}
+.info-des{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight:600;
+}
+.about-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #474747  ;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: -10px;
+    margin-top: 0px;
+}
+section{
+    max-width: 1540px;
+    margin: 0 auto;
+}
+.do-container{
+   display: flex;
+   margin-left: 130px;
+}
+.do-des{
+    color:  #757575;
+    font-size: 18px;
+    text-align: center;
+}
+.details{
+    width: 267px;
+    height: 377px;
+    border-radius: 5px;
+    gap: 24px;
+    padding: 30px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-des{
+    font-size: 18px;
+    text-align: left;
+    padding: 30px 33px;
+}
+.skill-name{
+    font-size: 20px;
+    color: #000;
+    font-weight: 800px;
+}
+main section{
+    margin-top: 130px;
+}
+.res-container{
+    text-align: center;
+    margin: 20px;
+}
+.res-col{
+    display: flex;
+    text-align: left;
+    gap: 50px;
+}
+.res-head{
+    font-weight: 800px;
+    color: #474747;
+}
+.degree-name{
+    font-weight: 600;
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 0%;
+}
+.deg-des{
+    font-size: 16px;
+}
+.collumA {
+    width: 1200px;
+    height: 4256px;
+}
+#cap{
+    color: #FD6E0A;
+}
+
